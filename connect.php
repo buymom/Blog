@@ -5,7 +5,7 @@
 //define ('DB_PASSWORD','');
 //define ('DB_NAME','blogsdb');
 
-//$conn = new mysqli(DB_HOST,DB_USER,DB_PASSWORD);
+$conn = new mysqli(DB_HOST,DB_USER,DB_PASSWORD);
 
 $DB_HOST = getenv("MYSQL_SERVICE_HOST");
 $DB_PORT = getenv("MYSQL_SERVICE_PORT");
